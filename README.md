@@ -16,4 +16,15 @@ Ky projekt:
 ## Si ekzekutohet
 ### 1) Instalimi
 ```bash
-python -m venv .venv
+
+## Krijimi i virtual environment python
+python3 -m venv .venv
+
+## Aktivizimi i virtual environment
+source .venv/bin/activate
+
+## Install librarite e nevojshme
+pip install requests beautifulsoup4 pandas lxml
+
+## Ruaj dependencies
+pip freeze > requirements.txt
